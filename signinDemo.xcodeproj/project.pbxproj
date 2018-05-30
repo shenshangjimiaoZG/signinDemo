@@ -15,6 +15,14 @@
 		112F490820BE374900B4AEB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F490720BE374900B4AEB5 /* main.m */; };
 		112F491220BE374A00B4AEB5 /* signinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F491120BE374A00B4AEB5 /* signinDemoTests.m */; };
 		112F491D20BE374A00B4AEB5 /* signinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F491C20BE374A00B4AEB5 /* signinDemoUITests.m */; };
+		112F495120BE3E7A00B4AEB5 /* FUCandarContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F494620BE3E7900B4AEB5 /* FUCandarContentCell.m */; };
+		112F495220BE3E7A00B4AEB5 /* FUCandarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F494820BE3E7900B4AEB5 /* FUCandarModel.m */; };
+		112F495320BE3E7A00B4AEB5 /* FUCandarContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112F494920BE3E7900B4AEB5 /* FUCandarContentCell.xib */; };
+		112F495420BE3E7A00B4AEB5 /* FUCandarWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F494A20BE3E7900B4AEB5 /* FUCandarWeekCell.m */; };
+		112F495520BE3E7A00B4AEB5 /* FUCandarWeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112F494B20BE3E7A00B4AEB5 /* FUCandarWeekCell.xib */; };
+		112F495620BE3E7A00B4AEB5 /* FUCanlendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F494F20BE3E7A00B4AEB5 /* FUCanlendarView.m */; };
+		112F495720BE3E7A00B4AEB5 /* FUCanlendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112F495020BE3E7A00B4AEB5 /* FUCanlendarView.xib */; };
+		80C027D8ECD96EBC41F59DCC /* libPods-signinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B47E2681F89871B5466B58F /* libPods-signinDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		112F491820BE374A00B4AEB5 /* signinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112F491C20BE374A00B4AEB5 /* signinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = signinDemoUITests.m; sourceTree = "<group>"; };
 		112F491E20BE374A00B4AEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112F494520BE3E7900B4AEB5 /* FUCandarWeekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCandarWeekCell.h; sourceTree = "<group>"; };
+		112F494620BE3E7900B4AEB5 /* FUCandarContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCandarContentCell.m; sourceTree = "<group>"; };
+		112F494720BE3E7900B4AEB5 /* FUCandarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCandarModel.h; sourceTree = "<group>"; };
+		112F494820BE3E7900B4AEB5 /* FUCandarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCandarModel.m; sourceTree = "<group>"; };
+		112F494920BE3E7900B4AEB5 /* FUCandarContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FUCandarContentCell.xib; sourceTree = "<group>"; };
+		112F494A20BE3E7900B4AEB5 /* FUCandarWeekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCandarWeekCell.m; sourceTree = "<group>"; };
+		112F494B20BE3E7A00B4AEB5 /* FUCandarWeekCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FUCandarWeekCell.xib; sourceTree = "<group>"; };
+		112F494C20BE3E7A00B4AEB5 /* FUcanlendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUcanlendarHeader.h; sourceTree = "<group>"; };
+		112F494D20BE3E7A00B4AEB5 /* FUCanlendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCanlendarView.h; sourceTree = "<group>"; };
+		112F494E20BE3E7A00B4AEB5 /* FUCandarContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCandarContentCell.h; sourceTree = "<group>"; };
+		112F494F20BE3E7A00B4AEB5 /* FUCanlendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCanlendarView.m; sourceTree = "<group>"; };
+		112F495020BE3E7A00B4AEB5 /* FUCanlendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FUCanlendarView.xib; sourceTree = "<group>"; };
+		4B47E2681F89871B5466B58F /* libPods-signinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-signinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D447316C287D933C3ED4C5D /* Pods-signinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A862EEC451BEA796C98E3114 /* Pods-signinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C027D8ECD96EBC41F59DCC /* libPods-signinDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				112F491020BE374A00B4AEB5 /* signinDemoTests */,
 				112F491B20BE374A00B4AEB5 /* signinDemoUITests */,
 				112F48F620BE374800B4AEB5 /* Products */,
+				40C70C8E83AD9FCA76CA8F55 /* Pods */,
+				C6824F751A7F6B1BA4A815A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,7 @@
 		112F48F720BE374800B4AEB5 /* signinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				112F494420BE3E5F00B4AEB5 /* 打卡日历 */,
 				112F48F820BE374800B4AEB5 /* AppDelegate.h */,
 				112F48F920BE374800B4AEB5 /* AppDelegate.m */,
 				112F48FB20BE374800B4AEB5 /* ViewController.h */,
@@ -132,6 +159,42 @@
 			path = signinDemoUITests;
 			sourceTree = "<group>";
 		};
+		112F494420BE3E5F00B4AEB5 /* 打卡日历 */ = {
+			isa = PBXGroup;
+			children = (
+				112F494E20BE3E7A00B4AEB5 /* FUCandarContentCell.h */,
+				112F494620BE3E7900B4AEB5 /* FUCandarContentCell.m */,
+				112F494920BE3E7900B4AEB5 /* FUCandarContentCell.xib */,
+				112F494720BE3E7900B4AEB5 /* FUCandarModel.h */,
+				112F494820BE3E7900B4AEB5 /* FUCandarModel.m */,
+				112F494520BE3E7900B4AEB5 /* FUCandarWeekCell.h */,
+				112F494A20BE3E7900B4AEB5 /* FUCandarWeekCell.m */,
+				112F494B20BE3E7A00B4AEB5 /* FUCandarWeekCell.xib */,
+				112F494C20BE3E7A00B4AEB5 /* FUcanlendarHeader.h */,
+				112F494D20BE3E7A00B4AEB5 /* FUCanlendarView.h */,
+				112F494F20BE3E7A00B4AEB5 /* FUCanlendarView.m */,
+				112F495020BE3E7A00B4AEB5 /* FUCanlendarView.xib */,
+			);
+			path = "打卡日历";
+			sourceTree = "<group>";
+		};
+		40C70C8E83AD9FCA76CA8F55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A862EEC451BEA796C98E3114 /* Pods-signinDemo.debug.xcconfig */,
+				4D447316C287D933C3ED4C5D /* Pods-signinDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6824F751A7F6B1BA4A815A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B47E2681F89871B5466B58F /* libPods-signinDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112F492120BE374A00B4AEB5 /* Build configuration list for PBXNativeTarget "signinDemo" */;
 			buildPhases = (
+				43CD137F5880647B2B202A40 /* [CP] Check Pods Manifest.lock */,
 				112F48F120BE374800B4AEB5 /* Sources */,
 				112F48F220BE374800B4AEB5 /* Frameworks */,
 				112F48F320BE374800B4AEB5 /* Resources */,
+				313D71E609AB2F796235869F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +302,10 @@
 			files = (
 				112F490520BE374900B4AEB5 /* LaunchScreen.storyboard in Resources */,
 				112F490220BE374900B4AEB5 /* Assets.xcassets in Resources */,
+				112F495520BE3E7A00B4AEB5 /* FUCandarWeekCell.xib in Resources */,
 				112F490020BE374800B4AEB5 /* Main.storyboard in Resources */,
+				112F495720BE3E7A00B4AEB5 /* FUCanlendarView.xib in Resources */,
+				112F495320BE3E7A00B4AEB5 /* FUCandarContentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +325,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		313D71E609AB2F796235869F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CD137F5880647B2B202A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signinDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		112F48F120BE374800B4AEB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				112F48FD20BE374800B4AEB5 /* ViewController.m in Sources */,
+				112F495420BE3E7A00B4AEB5 /* FUCandarWeekCell.m in Sources */,
+				112F495620BE3E7A00B4AEB5 /* FUCanlendarView.m in Sources */,
 				112F490820BE374900B4AEB5 /* main.m in Sources */,
 				112F48FA20BE374800B4AEB5 /* AppDelegate.m in Sources */,
+				112F495220BE3E7A00B4AEB5 /* FUCandarModel.m in Sources */,
+				112F495120BE3E7A00B4AEB5 /* FUCandarContentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +546,7 @@
 		};
 		112F492220BE374A00B4AEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A862EEC451BEA796C98E3114 /* Pods-signinDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,12 +558,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asap.signinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		112F492320BE374A00B4AEB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D447316C287D933C3ED4C5D /* Pods-signinDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asap.signinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
