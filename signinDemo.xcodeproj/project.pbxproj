@@ -22,6 +22,7 @@
 		112F495520BE3E7A00B4AEB5 /* FUCandarWeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112F494B20BE3E7A00B4AEB5 /* FUCandarWeekCell.xib */; };
 		112F495620BE3E7A00B4AEB5 /* FUCanlendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 112F494F20BE3E7A00B4AEB5 /* FUCanlendarView.m */; };
 		112F495720BE3E7A00B4AEB5 /* FUCanlendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112F495020BE3E7A00B4AEB5 /* FUCanlendarView.xib */; };
+		112F495920BE467100B4AEB5 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 112F495820BE467000B4AEB5 /* screen.png */; };
 		80C027D8ECD96EBC41F59DCC /* libPods-signinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B47E2681F89871B5466B58F /* libPods-signinDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		112F494E20BE3E7A00B4AEB5 /* FUCandarContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCandarContentCell.h; sourceTree = "<group>"; };
 		112F494F20BE3E7A00B4AEB5 /* FUCanlendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCanlendarView.m; sourceTree = "<group>"; };
 		112F495020BE3E7A00B4AEB5 /* FUCanlendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FUCanlendarView.xib; sourceTree = "<group>"; };
+		112F495820BE467000B4AEB5 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		4B47E2681F89871B5466B58F /* libPods-signinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-signinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D447316C287D933C3ED4C5D /* Pods-signinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A862EEC451BEA796C98E3114 /* Pods-signinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-signinDemo/Pods-signinDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		112F48F720BE374800B4AEB5 /* signinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				112F495820BE467000B4AEB5 /* screen.png */,
 				112F494420BE3E5F00B4AEB5 /* 打卡日历 */,
 				112F48F820BE374800B4AEB5 /* AppDelegate.h */,
 				112F48F920BE374800B4AEB5 /* AppDelegate.m */,
@@ -303,6 +306,7 @@
 				112F490520BE374900B4AEB5 /* LaunchScreen.storyboard in Resources */,
 				112F490220BE374900B4AEB5 /* Assets.xcassets in Resources */,
 				112F495520BE3E7A00B4AEB5 /* FUCandarWeekCell.xib in Resources */,
+				112F495920BE467100B4AEB5 /* screen.png in Resources */,
 				112F490020BE374800B4AEB5 /* Main.storyboard in Resources */,
 				112F495720BE3E7A00B4AEB5 /* FUCanlendarView.xib in Resources */,
 				112F495320BE3E7A00B4AEB5 /* FUCandarContentCell.xib in Resources */,
